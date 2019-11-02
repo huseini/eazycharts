@@ -1,0 +1,14 @@
+.bound {
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    background-size: 100% 16px, 16px 100%;
+    background-image: linear-gradient(#ccc 4%, transparent 5%), linear-gradient(90deg, #eee 4%, transparent 5%);
+    margin: 10px;
+    position: relative;
+}
+
+.chart-bar {
+    bottom: 0;
+    position: absolute;
+}
